@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: hsl(229, 27%, 73%);
+    width: 1440px;
+
+}
+@media screen and (max-width : 1400px){
+    body{
+       width: 100%;
+       overflow: hidden;
+    }
+}
+@media screen and (max-width : 1364px){
+    body{
+       width: 100%;
+       overflow: hidden;
+    }
+}
+@media screen and (max-width : 1250px){
+    body{
+       width: 100%;
+       overflow: hidden;
+    }
+}
+
+@media screen and (max-width : 550px){
+    body{
+       width: 375px;
+       overflow: hidden;
+    }
+}
+
+@media screen and (max-width : 375px){
+    body{
+       width: 100%;
+       overflow: hidden;
+    }
+}
+.imgg svg{
+    background-size: cover;
+}
+.container{
+    border-radius: 1rem;
+    height: 600px;
+    width: 380px;
+    
+    transform: translateY(-60%);
+    margin-left: 40%;
+    /* transform: translateX(50%); */
+}
+@media screen and (max-width : 1000px){
+    .container{
+        margin-left: 18px;
+    }
+}
+@media screen and (max-width : 800px){
+    .container{
+        margin: 5px;
+    }
+}
+.container{
+    background-color: aliceblue;
+}
+.img{
+height: 230px;
+/* border: 2px red solid; */
+
+
+}
+.img svg{
+    background-size: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 100%;
+    
+    
+}
+.artical{
+    height: 130px;
+    
+margin-top: 15px;
+text-align: center;
+}
+.artical{
+    font-weight: 700;
+}
+.artical p{
+    color: rgb(107, 100, 91);
+}
+.artical h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.menu{
+    height: 60px;
+    
+background-color: rgb(211, 225, 228);
+display: flex;
+justify-content: space-between;
+}
+.menu{
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 1.2rem;
+}
+.change{
+    color: blue;
+    margin: 10px;
+
+}
+
+  
+
+.button{
+    height: 100px;
+    
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 5px;
+   
+
+}
+.butto{
+    box-shadow: 5px 12px 5px rgb(187, 187, 239);
+    background-color: mediumslateblue;
+    width: 83%;
+    height: 45px;
+    border-radius: 0.7rem;
+    color: wheat;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+    outline: 0px;
+    border: 0px;
+
+}
+.button p{
+    font-family:  sans-serif;
+    font-weight: bold;
+}
